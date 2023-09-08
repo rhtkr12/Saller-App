@@ -1,11 +1,8 @@
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Routes from './routes/Routes'
 function App() {
-  return (
-    <>
-      <h1>Saller App</h1>
-    </>
-  );
+  return <Routes />
 }
 
 export default App;
